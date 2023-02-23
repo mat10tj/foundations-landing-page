@@ -98,3 +98,20 @@ main {
     background-image: url("./assets/fatfuckC.webp");
     background-size: contain;
 }
+
+.part3{
+    background-color: #e5e7eb;
+    padding: 7em;
+    font-size: 30px;
+}
+
+.part4{
+    background-color: #1f2937;
+    padding: 10em;
+}
+
+.cta{
+    background-color: #3882f6;
+    padding: 40px;
+    display: flex;
+}
