@@ -3,7 +3,98 @@
     margin: 0%;
 }
 
+
 .container {
     display: flex;
     flex-direction: column;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 15px 100px 10rem;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main { 
+    display: flex;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+.main2 > img{
+    width: 45em;
+    height: 350px;
+}
+
+.main1{
+    align-self: center;
+    font-size: large;
+    color: aliceblue;
+}
+.main1 > h1 {
+    font-size: 50px;
+}
+
+
+.main1 > button {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10em;
+}
+
+.card {
+  width: 15em;
+  height: 15em;
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+}
+
+.card-container{
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+}
+
+.part2-heading {
+    margin: auto;
+    padding-bottom: 5em;
+}
+
+.card1{
+    background-image: url("./assets/solidusC.webp");
+    background-size: cover;
+}
+.card2{
+    background-image: url("./assets/FortuneC.webp");
+    background-size: cover;
+}
+.card3{
+    background-image: url("./assets/VampC.webp");
+    background-size: cover;
+}
+.card4{
+    background-image: url("./assets/fatfuckC.webp");
+    background-size: contain;
 }
