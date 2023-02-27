@@ -69,6 +69,7 @@ main {
   height: 15em;
   border-radius: 10px;
   border: 3px solid #3882f6;
+  flex-shrink: 0;
 }
 
 .card-container{
@@ -99,14 +100,25 @@ main {
     background-size: contain;
 }
 
+.cc-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
 .part3{
     background-color: #e5e7eb;
     padding: 7em;
     font-size: 30px;
 }
+figcaption {
+    padding-top: 20px;
+}
 
 .part4{
-    background-color: #1f2937;
+    background-color: white;
     padding: 10em;
 }
 
@@ -114,4 +126,14 @@ main {
     background-color: #3882f6;
     padding: 40px;
     display: flex;
+    border-radius: 5px;
+}
+
+footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
 }
