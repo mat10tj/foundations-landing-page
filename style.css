@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: sans-serif;
 }
 
 
@@ -120,6 +121,7 @@ figcaption {
 .part4{
     background-color: white;
     padding: 10em;
+    color: white;
 }
 
 .cta{
@@ -127,6 +129,18 @@ figcaption {
     padding: 40px;
     display: flex;
     border-radius: 5px;
+    justify-content: space-between;
+
+}
+
+.cta > button {
+    color: white;
+    background-color: #3882f6;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: 900;
 }
 
 footer {
