@@ -34,6 +34,7 @@ main {
     display: flex;
     margin: auto;
     padding-bottom: 10rem;
+    gap: 3em;
 }
 
 .main2 > img{
@@ -49,13 +50,18 @@ main {
 .main1 > h1 {
     font-size: 50px;
 }
-
+.main1 > p {
+    max-width: 600px;
+}
 
 .main1 > button {
     background-color: #3882f6;
     border: 0;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
+    color: white;
+    width: 110px;
+    font-weight: bolder;
 }
 
 .part2{
