@@ -49,9 +49,11 @@ main {
 }
 .main1 > h1 {
     font-size: 50px;
+    max-width: 600px;
 }
 .main1 > p {
     max-width: 600px;
+    padding-bottom: 10px;
 }
 
 .main1 > button {
@@ -68,7 +70,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 10em;
+    padding: 6em 10em;
 }
 
 .card {
@@ -81,7 +83,7 @@ main {
 
 .card-container{
     display: flex;
-    gap: 10em;
+    gap: 8em;
     justify-content: center;
 }
 
@@ -113,12 +115,16 @@ main {
     align-items: center;
     gap: 10px;
     text-align: center;
+    max-width: min-content;
 }
 
 .part3{
     background-color: #e5e7eb;
     padding: 7em;
     font-size: 30px;
+}
+q {
+    max-width: fit-content;
 }
 figcaption {
     padding-top: 20px;
@@ -136,7 +142,7 @@ figcaption {
     display: flex;
     border-radius: 5px;
     justify-content: space-between;
-
+    font-weight: bolder;
 }
 
 .cta > button {
