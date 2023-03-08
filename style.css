@@ -138,10 +138,10 @@ figcaption {
 
 .cta{
     background-color: #3882f6;
-    padding: 40px;
+    padding: 50px;
     display: flex;
     border-radius: 5px;
-    justify-content: space-between;
+    justify-content: space-around;
     font-weight: bolder;
 }
 
